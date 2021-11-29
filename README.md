@@ -9,6 +9,17 @@
   <a href="https://b-coimbra.github.io/dawn/">LIVE PREVIEW</a>
 </div>
 
+## Installation
+- Brave
+  - Go to `brave://settings/` and under the **On startup** section check the **Open a specific page or set of pages**
+  - Add the file path: `file:///home/you_username/path/to/dawn/index.html`
+  - Unfortunetaly Brave [doesn't have support for custom URLs in new tabs](https://community.brave.com/t/change-customize-blank-new-tab-page/45216)
+- Firefox
+  - Under `about:preferences#home` choose the **Custom URLs** option and add the file path: `file:///home/you_username/path/to/dawn/index.html`
+
+
+> NOTE: for development purposes you can just start a local http server from the repository *(e.g `python -m http.server`, `php -S localhost:8080`)*
+
 ## Keybindings
 
 - <kbd>Numrow</kbd> Switch tabs
