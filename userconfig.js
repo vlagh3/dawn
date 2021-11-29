@@ -14,7 +14,9 @@ const GLOBAL_CONFIG = new Config({
       g: ['https://google.com/search?q=', 'Google'],
       d: ['https://duckduckgo.com/?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
-      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
+      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia'],
+      h: ['https://github.com/search?q=', 'Github'],
+      b: ['https://wiby.me/?q=', 'Wiby']
     }
   },
   disabled: ["todo-list"]
