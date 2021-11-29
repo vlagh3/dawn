@@ -125,7 +125,7 @@ body {
     flex-wrap: wrap;
 }
 
-#panels > ul:first-child .links a {
+#panels > ul .links a {
     color: #bfbfbf;
     text-decoration: none;
     font: 700 18px 'Roboto', sans-serif;
@@ -138,7 +138,8 @@ body {
     margin-bottom: .7em;
 }
 
-#panels > ul:first-child .links a:not(:last-child) { margin-right: .3em }
+/* #panels > ul:first-child .links a:not(:last-child) { margin-right: .3em } */
+#panels > ul .links a { margin-right: .3em }
 
 #panels > ul:first-child .links a:hover {
     transform: scale(1.2);
@@ -172,13 +173,13 @@ body {
     backdrop-filter: blur(3px);
 }
 
-#panels > ul:first-child .links li:not(:last-child) {
+#panels > ul .links li:not(:last-child) {
     box-shadow: 0 1px 0 rgba(255, 255, 255, .07);
     padding: 0 0 .5em 0;
     margin-bottom: 1.5em;
 }
 
-#panels > ul:first-child .links li h1 {
+#panels > ul .links li h1 {
     color: #36363c;
     font-size: 17px;
     margin-bottom: 1em;
@@ -188,16 +189,20 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-#panels > ul:not(:first-child) li {
-    padding: .5em;
-}
+/* #panels > ul li { */
+/*     padding: .5em; */
+/* } */
 
-#panels > ul:not(:first-child) li a {
-    color: grey;
-    font: 700 16px 'Roboto', sans-serif;
-    text-decoration: none;
-    letter-spacing: 1px;
-}
+/* #panels > ul:not(:first-child) li { */
+/*     padding: .5em; */
+/* } */
+
+/* #panels > ul:not(:first-child) li a { */
+/*     color: grey; */
+/*     font: 700 16px 'Roboto', sans-serif; */
+/*     text-decoration: none; */
+/*     letter-spacing: 1px; */
+/* } */
 
 #panels > ul:not(:first-child) li a:hover {
     color: #fff;
