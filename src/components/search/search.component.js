@@ -142,7 +142,7 @@ class Search extends Component {
 
     let args = target.value.split(' ');
     let prefix = args[0];
-    let defaultEngine = this.engines['g'][0];
+    let defaultEngine = this.engines['d'][0];
     let engine = defaultEngine;
 
     this.refs.engines.childNodes.forEach(engine => {
@@ -158,7 +158,10 @@ class Search extends Component {
         args = args.slice(1);
       }
 
-      window.location = engine + encodeURI(args.join(' '));
+      // Open window in new tab & clear seach input
+      window.open(engine + encodeURI(args.join(' ')));
+      this.refs.input.value = "";
+      // window.location = engine + encodeURI(args.join(' '));
     }
 
     if (key === 'Escape')
